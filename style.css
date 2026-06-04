@@ -6,28 +6,45 @@ body {
     line-height: 1.6;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
+    position: relative;
     text-align: center;
-    padding: 100px 20px;
-    color: white;
-
-    background-image: url("bgpic.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+/* IMAGE */
+.hero-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(60%);
+}
+
+/* TEXT ON TOP OF IMAGE */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 90%;
+}
+
+/* TITLE */
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
+/* SUBTEXT */
 .hero p {
     font-size: 1.2rem;
     color: #cbd5e1;
 }
 
+/* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -51,7 +68,6 @@ section {
 
 h2 {
     color: #60a5fa;
-    margin-bottom: 10px;
 }
 
 /* DARK SECTIONS */
