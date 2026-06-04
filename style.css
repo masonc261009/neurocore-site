@@ -8,7 +8,14 @@ body {
 
 /* HERO SECTION */
 .hero {
-    background:red;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+
+    background-image: url("bgpic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
