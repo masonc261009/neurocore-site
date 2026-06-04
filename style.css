@@ -10,7 +10,7 @@ body {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #111827, #1f2937);
+    
     background-image: url("bgpic.jpg");
     background-size: cover;
     background-position: center;
